@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Convidado">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="466dp"
+        android:text="Group's Name:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="133dp"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="668dp"
+        android:text="Aveiro Runners"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        ></TextView>
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="668dp"
+        android:text="Group's Description:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="189dp"
+        android:layout_marginTop="61dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="598dp"
+        android:text="Grupo de pessoas que gosta de se reunir aos Sábados de manhã para correr"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="668dp"
+        android:text="Run or Walk?:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="598dp"
+        android:text="Run"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="668dp"
+        android:text="Objectives:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="102dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="170dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="598dp"
+        android:text="10Km"
+        android:textColor="@color/black"
+        android:textSize="20sp"></TextView>
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="35dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="668dp"
+        android:text="Participants:"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <ListView
+        android:id="@+id/lista_grupo"
+        android:layout_width="wrap_content"
+        android:layout_height="279dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="35dp"></ListView>
+    <EditText
+        android:id="@+id/nome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Your Friend's Username"
+        android:padding="13dp"
+        android:textColorHint="@color/black"></EditText>
+
+    <Button
+        android:id="@+id/back666"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Go Back"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="-7dp"></Button>
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:id="@+id/invite"
+        android:hint="Invite Friend"
+        android:gravity="center"
+        android:layout_marginStart="270dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginEnd="11dp"
+        android:layout_marginBottom="35dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        ></Button>
+
+</FrameLayout>

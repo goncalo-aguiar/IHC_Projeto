@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1000dp"
+    android:layout_height="1000dp"
+    tools:context=".CustomNotView2">
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageicon2222"
+        ></ImageView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview2222"
+        android:textColor="@color/black"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:text="My Text"
+        ></TextView>
+    <Button
+        android:id="@+id/bottao1"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="-10dp"
+        android:layout_marginTop="-7dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Decline"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"></Button>
+
+    <Button
+        android:id="@+id/bottao"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="-2dp"
+        android:layout_marginStart="100dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Accept"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"></Button>
+
+
+
+</FrameLayout>

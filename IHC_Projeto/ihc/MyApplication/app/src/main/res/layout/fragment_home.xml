@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment">
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:background="@drawable/button_round_corners"
+            android:id="@+id/andar"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="25dp"
+            android:layout_gravity="center_horizontal"
+            android:padding="30dp"
+            android:src="@drawable/andar"
+            android:tint="@color/white"
+            android:backgroundTint="#0047AB"
+            android:scaleType="centerCrop"></ImageButton>
+        <TextView
+            android:id="@+id/ola"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-5dp"
+            android:clickable="false"
+            
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:text="Select the activity you want to do:"></TextView>
+
+        <TextView
+            android:id="@+id/correrrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:clickable="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="WALK"></TextView>
+
+        <ImageButton
+            android:background="@drawable/button_round_corners"
+            android:id="@+id/correr"
+            android:layout_width="220dp"
+            android:layout_height="220dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="295dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="121dp"
+            android:padding="30dp"
+            android:tint="@color/white"
+            android:backgroundTint="#0047AB"
+            android:src="@drawable/correr"
+            android:scaleType="centerCrop"></ImageButton>
+        <TextView
+            android:id="@+id/andarrr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="470dp"
+            android:clickable="false"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:text="RUN"></TextView>
+    </FrameLayout>
+
+</FrameLayout>
+
+
+

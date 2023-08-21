@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Resultados">
+
+
+    <ImageView
+        android:id="@+id/imagem"
+        android:layout_width="500dp"
+        android:layout_height="370dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-24dp"
+        android:layout_marginTop="-36dp"
+        android:layout_marginEnd="-26dp"
+        android:layout_marginBottom="397dp"
+        android:gravity="center"
+        android:src="@drawable/mapa"></ImageView>
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Go Back"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"></Button>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="392dp"
+        android:text="Type of Activity: Running"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="350dp"
+        android:text="Date: 27/05/2004"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="309dp"
+        android:text="Distance: 20 Km"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="262dp"
+        android:text="Calories: 2000 Cal"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="220dp"
+        android:text="Medium Heart Rate: 120 bpm"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="175dp"
+        android:text="Medium Pace: 5 km/h"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="133dp"
+        android:text="Comparing to your Last Activity(Km):"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"></TextView>
+
+
+    <ImageView
+        android:id="@+id/imagembarra2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="-24dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginEnd="-26dp"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/barras2"></ImageView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="75dp"
+        android:text="Last Activity"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="00dp"
+        android:layout_marginEnd="42dp"
+        android:layout_marginBottom="102dp"
+        android:text="This activity"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold"></TextView>
+
+
+</RelativeLayout>

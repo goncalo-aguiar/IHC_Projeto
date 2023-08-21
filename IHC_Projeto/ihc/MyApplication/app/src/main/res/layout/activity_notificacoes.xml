@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Notificacoes">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:src="@drawable/linha"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:src="@drawable/linha"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="400dp"
+        android:src="@drawable/linha"></ImageView>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="530dp"
+        android:src="@drawable/linha"></ImageView>
+
+    <Button
+        android:id="@+id/backl"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Go Back"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"
+        android:layout_marginTop="-7dp"></Button>
+
+
+    <!--<ListView
+        android:id="@+id/lista_not"
+        android:layout_width="wrap_content"
+        android:layout_height="456dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="102dp"
+        android:layout_marginEnd="-6dp"
+        android:layout_marginBottom="173dp"></ListView>-->
+
+    <TextView
+        android:layout_width="228dp"
+        android:layout_height="87dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="503dp"
+        android:text="Your Notifications:"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="20dp"></TextView>
+
+
+    <TextView
+        android:layout_width="372dp"
+        android:layout_height="81dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="463dp"
+        android:text="You were invited to the group Aveiro Runners"
+        android:textColor="@color/black"
+        android:textSize="17dp"></TextView>
+
+
+    <!-- String medalList[] = {"You were invited to the group Aveiro Runners     ",
+     "Ricky9 just asked to join your group              ",
+     "You were invited to the group Aveiro Runners      "};-->
+
+    <Button
+        android:id="@+id/bottao1"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="467dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Decline"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></Button>
+
+    <Button
+        android:id="@+id/bottao"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="224dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="467dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Accept"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></Button>
+
+
+    <Button
+        android:id="@+id/bottao12"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="333dp"
+        android:layout_marginEnd="96dp"
+        android:layout_marginBottom="359dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Decline"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></Button>
+
+    <Button
+        android:id="@+id/bottao23"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="335dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="359dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Accept"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></Button>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="412dp"
+        android:text="Ricky9 just asked to join your group"
+        android:textColor="@color/black"
+        android:textSize="17dp"></TextView>
+
+    <Button
+        android:id="@+id/bottao122"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentStart="true"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="212dp"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginBottom="242dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Decline"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></Button>
+
+    <Button
+        android:id="@+id/bottao232"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="244dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Accept"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></Button>
+
+    <TextView
+        android:layout_width="349dp"
+        android:layout_height="38dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="278dp"
+        android:text="You were invited to the group Aveiro Runners"
+        android:textColor="@color/black"
+        android:textSize="17dp"></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="112dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="73dp"
+        android:layout_marginBottom="111dp"
+        android:text="Your group Passeios na Montanha has a new activity\nPlace to meet:Centro de Congresso,Aveiro\nDate:21/04/2001, 9:00h"
+        android:textColor="@color/black"
+        android:textSize="17dp"></TextView>
+
+    <Button
+        android:id="@+id/bottao2321"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="-7dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginBottom="115dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Ok"
+        android:textColorHint="@color/white"
+        android:textSize="12dp"></Button>
+
+
+</RelativeLayout>

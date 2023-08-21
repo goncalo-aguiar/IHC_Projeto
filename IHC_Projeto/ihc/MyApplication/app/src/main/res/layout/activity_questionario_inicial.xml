@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Questionario_Inicial">
+
+    <TextView
+        android:id="@+id/texto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="30dp"
+        android:textSize="20dp"
+        android:text="Your data is being collected in order for our app to choose the best training possible for you."></TextView>
+
+    <EditText
+        android:id="@+id/idade"
+        android:layout_marginStart="20dp"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto"
+        android:layout_marginTop="0dp"
+        android:hint="Your Age"
+        android:padding="20dp"
+        android:textColorHint="@color/black"></EditText>
+
+    <EditText
+        android:id="@+id/peso"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idade"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Your Weight"
+        android:padding="20dp"
+        android:textColorHint="@color/black"></EditText>
+
+    <EditText
+        android:id="@+id/altura"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/peso"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginBottom="20dp"
+        android:hint="Your Height"
+        android:padding="20dp"
+        android:textColorHint="@color/black"></EditText>
+
+    <TextView
+        android:id="@+id/texto1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/altura"
+        android:layout_marginTop="3dp"
+        android:padding="30dp"
+        android:text="Level of Activity"
+        android:textSize="20dp"
+        android:textColor="@color/black"></TextView>
+
+    <SeekBar
+        android:id="@+id/barra1"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/texto1"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="-15dp"
+        android:layout_marginEnd="8dp"
+        android:textColorHint="@color/black"></SeekBar>
+
+    <TextView
+        android:id="@+id/texto2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/altura"
+        android:layout_marginTop="76dp"
+        android:padding="30dp"
+        android:text="Sedentary                                                  Active"
+        android:textColor="@color/black"
+        android:textSize="15dp"></TextView>
+
+    <Button
+        android:id="@+id/login2"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/barra1"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="82dp"
+        android:backgroundTint="@color/cardview_dark_background"
+        android:gravity="center"
+        android:hint="Submit"
+        android:textColorHint="@color/white"
+        android:textSize="15dp"></Button>
+
+</RelativeLayout>
